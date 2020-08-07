@@ -1,2 +1,1 @@
-# filbert-js-examples-with-preact
-Created with CodeSandbox
+A starter kit using Preact and filbert-js
