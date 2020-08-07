@@ -23,6 +23,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "@babel/core": "7.11.1",
     "@filbert-js/core": "^0.0.8",
     "@filbert-js/macro": "^0.0.2",
     "babel-plugin-macros": "^2.8.0",
