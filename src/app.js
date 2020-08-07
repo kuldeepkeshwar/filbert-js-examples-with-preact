@@ -1,8 +1,6 @@
-import { Global, styled } from "@emotion/core";
+import { Global, css, styled } from "@filbert-js/macro";
 
-import {h} from "preact";
-
-const Heading = styled("h1")`
+const Heading = styled.h1`
   outline: none;
   text-decoration: none;
   font-weight: 300;
@@ -20,10 +18,10 @@ const Heading = styled("h1")`
     text-decoration: none;
   }
 `;
-const Small = styled("div")`
+const Small = styled.div`
   color: black;
 `;
-const Container = styled("div")`
+const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,11 +64,11 @@ export default function Home() {
       </Heading>
       <Small>A light weight(~1KB) css-in-js solution(framework)🎨</Small>
       <div
-        // css={css`
-        //   color: hotpink;
-        // `}
+        css={css`
+          color: hotpink;
+        `}
       >
-        React JS is awesome
+        Preact JS is awesome
       </div>
     </Container>
   );
